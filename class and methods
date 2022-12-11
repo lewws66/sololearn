@@ -1,0 +1,24 @@
+// First OOP attempt
+
+#include <iostream>
+using namespace std;
+
+
+class Bird {
+    public:
+    //complete the class, add makeSound() method
+    void makeSound(){
+        cout << "chirp-chirp" << endl;
+    }
+};
+
+
+int main() {
+    
+    //instantiation
+    Bird bird;
+    
+    //function call
+    bird.makeSound();   
+    return 0;
+}
