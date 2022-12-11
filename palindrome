@@ -16,6 +16,27 @@ Sample Output:
 using namespace std;
 bool isPalindrome(int x) {
     //complete the function
+    /*
+    
+    
+    /* Attempted recursion but failed
+    bool isPalindrome(int x , int r) {
+    if(x < 0) {
+        break;
+    }
+    else {
+    r = r*10 + isPalindrome(x%10,r);
+    x = (x - isPalindrome(x%10,r))/10;
+    if(x == r){
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+    */
+   
+    // Resorted to just using a do while loop
     int r, d, n = 0;
     n = x;
     do {
