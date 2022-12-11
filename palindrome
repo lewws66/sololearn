@@ -37,6 +37,8 @@ bool isPalindrome(int x) {
     */
    
     // Resorted to just using a do while loop
+    // This code was learnt from
+    // https://www.programiz.com/cpp-programming/examples/palindrome-number
     int r, d, n = 0;
     n = x;
     do {
