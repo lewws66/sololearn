@@ -1,0 +1,24 @@
+//  Passing parameters to constructor
+//  Constructor is a special function/method called when an instance of an object of the class
+//  is created. The name of the function is exactly the name of the class.
+//  A class's name does not have brackets () following the name, but for a
+//  function's name it is followed by brackets ()
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Painting {
+    public:
+        //define the constructor
+        Painting(string names) {
+            cout << names;
+        }
+};
+int main() {
+    string name;
+    cin >> name;
+
+    Painting painting(name);
+
+    return 0;
+}
